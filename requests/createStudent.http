@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/students
+Content-Type: application/vnd.api+json
+
+{
+    "first_name": "Ivan",
+    "last_name": "Ivanov",
+    "email": "ivanov2@gmail.com",
+    "group": "ATP-13-1",
+    "receipt_date": "2020/08/22",
+    "birthday": "1995/01/11"
+}
