@@ -16,7 +16,7 @@ const studentSchema = new Schema({
     required: true,
     unique: true,
   },
-  idGroup: {
+  group: {
     type: String,
     required: true,
   },
@@ -25,7 +25,10 @@ const studentSchema = new Schema({
     required: true,
     max: new Date(),
   },
-  birthday: Date,
+  birthday: {
+    type: Date,
+    required: true,
+  },
 });
 
 const Student = mongoose.model('Student', studentSchema);

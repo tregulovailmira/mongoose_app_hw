@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  'mongodb+srv://admin:<admin>@cluster0.xfq1o.mongodb.net/students',
+  'mongodb+srv://admin:admin@cluster0.xfq1o.mongodb.net/students',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
